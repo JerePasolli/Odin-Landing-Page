@@ -76,8 +76,9 @@ nav {
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    flex-basis: 400px;
     background-color: beige;
+    gap: 100px;
 }
 
 .images .img_container {
@@ -85,7 +86,7 @@ nav {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 150px;
+    gap: 70px;
 
 }
 
@@ -95,7 +96,6 @@ nav {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .images .img_container .img1 p, .images .img_container .img2 p,
